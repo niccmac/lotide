@@ -6,3 +6,4 @@
 * [Assert Equal Array](/eqArrays.js)
 * [Assert Equal Array ||](/assertArrayEqual.js)
 * [Without](/without.js)
+* [Flatten](/flatten.js)
