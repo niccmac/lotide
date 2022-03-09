@@ -7,3 +7,6 @@
 * [Assert Equal Array ||](/assertArrayEqual.js)
 * [Without](/without.js)
 * [Flatten](/flatten.js)
+* [Middle](/middle.js)
+* [Count Only](/countOnly.js)
+
