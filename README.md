@@ -9,4 +9,5 @@
 * [Flatten](/flatten.js)
 * [Middle](/middle.js)
 * [Count Only](/countOnly.js)
+* [Count Letters](/countLetters.js)
 
