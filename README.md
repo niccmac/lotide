@@ -15,3 +15,4 @@
 * [Equal Objects](/eqObjects.js)
 * [Assert Objects Equal](/assertObjectsEqual.js)
 * [Map](/map.js)
+* [Take Until](/takeUntil.js)
