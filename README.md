@@ -12,3 +12,5 @@
 * [Count Letters](/countLetters.js)
 * [Letter Positions](/letterPositions.js)
 * [Find Key By Value](/findKeyByValue.js)
+* [Equal Objects](/eqObjects.js)
+* [Assert Objects Equal](/assertObjectsEqual.js)
