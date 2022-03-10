@@ -10,5 +10,5 @@
 * [Middle](/middle.js)
 * [Count Only](/countOnly.js)
 * [Count Letters](/countLetters.js)
-
 * [Letter Positions](/letterPositions.js)
+* [Find Key By Value](/findKeyByValue.js)
