@@ -11,3 +11,4 @@
 * [Count Only](/countOnly.js)
 * [Count Letters](/countLetters.js)
 
+* [Letter Positions](/letterPositions.js)
