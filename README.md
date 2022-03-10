@@ -14,3 +14,4 @@
 * [Find Key By Value](/findKeyByValue.js)
 * [Equal Objects](/eqObjects.js)
 * [Assert Objects Equal](/assertObjectsEqual.js)
+* [Map](/map.js)
