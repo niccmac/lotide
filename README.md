@@ -16,3 +16,4 @@
 * [Assert Objects Equal](/assertObjectsEqual.js)
 * [Map](/map.js)
 * [Take Until](/takeUntil.js)
+* [Find Key](/findKey.js)
