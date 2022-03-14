@@ -1,3 +1,5 @@
+const countOnly = require("./countOnly");
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`🪀 🪀 🪀  Assertion Passed: ${actual} === ${expected}`);
@@ -23,3 +25,5 @@ const countLetters = function(string) {
 };
 let string = `This is a string of words.`;
 console.log(countLetters(string));
+
+module.exports = countLetters;
