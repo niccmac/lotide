@@ -12,8 +12,6 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(string) {
   let returnCount = {};
   let noSpaceString = string.replaceAll(" ", "");
-  // console.log("should have no space", noSpaceString);
-
   for (let chara of noSpaceString) {
     if (!returnCount[chara]) {
       returnCount[chara] = 1;
