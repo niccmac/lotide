@@ -1,29 +1,5 @@
 const eqArrays = require(`./eqArrays`);
 
-// console.log("here");
-
-// const assertEqual = function(actual, expected) {
-//   if (actual === expected) {
-//     return `🪀 🪀 🪀  Assertion Passed: ${actual} === ${expected}`;
-//   } else {
-//     return `🧨🧨🧨 Assertion Failed: ${actual} !== ${expected}`;
-//   }
-// };
-
-
-// const eqArrays = function(firstArray, secondArray) {
-//   if (firstArray.length !== secondArray.length) {
-//     return false;
-//   }
-  
-//   for (let i = 0; i < secondArray.length; i++) {
-//     if (firstArray[i] !== secondArray[i]) {
-//       return false;
-//     }
-//   }
-
-//   return true;
-// };
 
 const eqObjects = function(objOne, objTwo) {
   let objOneLength = Object.keys(objOne).length;
@@ -46,7 +22,4 @@ const eqObjects = function(objOne, objTwo) {
   return true;
  
 };
-
-
-
 module.exports = eqObjects;
