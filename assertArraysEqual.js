@@ -12,6 +12,4 @@ const assertArraysEqual = function(firstArray, secondArray) {
   return "Arrays do match.";
 };
 
-// console.log(assertArraysEqual([1,2,3],[1,2,4]));
-
 module.exports = assertArraysEqual;
