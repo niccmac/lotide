@@ -1,12 +1,4 @@
-const countOnly = require("./countOnly");
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`🪀 🪀 🪀  Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🧨🧨🧨 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
 
 // // TEST CODE
 // assertEqual("Lighthouse Labs", "Bootcamp");
@@ -14,7 +6,7 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(string) {
   let returnCount = {};
   let noSpaceString = string.replaceAll(" ", "");
-  for (let chara of noSpaceString) {
+  for (let chara of noSpaceString.toLowerCase()) {
     if (!returnCount[chara]) {
       returnCount[chara] = 1;
     } else {
@@ -23,7 +15,5 @@ const countLetters = function(string) {
   }
   return returnCount;
 };
-let string = `This is a string of words.`;
-console.log(countLetters(string));
 
 module.exports = countLetters;
