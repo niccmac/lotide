@@ -11,7 +11,6 @@ const middle = function (array) {
     middleIndex = Math.ceil(array.length / 2) - 1;
     elementMiddleIndex.push(array[middleIndex]);
   }
-
   return elementMiddleIndex;
 };
 
