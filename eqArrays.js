@@ -13,4 +13,3 @@ const eqArrays = function(firstArray, secondArray) {
 
 module.exports = eqArrays;
 
-// first time I've had a code review with a mentor, very helpful.
